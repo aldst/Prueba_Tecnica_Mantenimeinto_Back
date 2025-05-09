@@ -1,0 +1,6 @@
+@Caso3_HostAddress = http://localhost:5155
+
+GET {{Caso3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

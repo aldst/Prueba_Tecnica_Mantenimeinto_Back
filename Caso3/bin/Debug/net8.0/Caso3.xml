@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Caso3</name>
+    </assembly>
+    <members>
+        <member name="M:Caso3.Controllers.AuthController.Login(Caso3.Models.LoginRequest)">
+            <summary>
+            Permite iniciar sesion en el Parametro
+            </summary>
+            <param name="request">Username, Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:Caso3.Controllers.UserController.GetAll(Caso3.Models.User)">
+            <summary>
+            Lista la información de los usuarios (el parámetro es opcional)
+            </summary>
+            <param name="user">Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:Caso3.Controllers.UserController.Save(Caso3.Models.User)">
+            <summary>
+            Guarda o Actualiza la información de un usuario
+            </summary>
+            <param name="user">Usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:Caso3.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Eliminar el registro de un Usuario
+            </summary>
+            <param name="id">Id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
